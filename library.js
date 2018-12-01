@@ -190,7 +190,7 @@ Plugin.checkReply = function (data, options, callback) {
 				comment_content: (data.title ? data.title + '\n\n' : '') + (data.content || ''),
 				comment_author: userData.username,
 				comment_author_email: userData.email,
-				// https://github.com/akhoury/nodebb-plugin-spam-be-gone/issues/54
+				// https://github.com/akhoury/nodebb-plugin-spam-be-gone-china/issues/54
 				comment_type: options.type === 'topic' ? 'forum-post' : 'comment'
 			};
 			akismet.checkSpam(akismetData, next);

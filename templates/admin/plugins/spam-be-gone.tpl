@@ -85,7 +85,7 @@
 
             <br/>
             File issues, pull requests or ideas at the
-            <a target="_blank" href="https://github.com/akhoury/nodebb-plugin-spam-be-gone">github repo</a>
+            <a target="_blank" href="https://github.com/Magictea-Intl/nodebb-plugin-spam-be-gone">github repo</a>
           </p>
         </fieldset>
       </form>

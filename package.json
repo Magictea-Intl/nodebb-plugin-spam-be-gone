@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-plugin-spam-be-gone",
-  "version": "0.5.5",
+  "name": "nodebb-plugin-spam-be-gone-gfw",
+  "version": "0.5.6",
   "description": "anti spam using both Akismet.com and StopForumSpam.com",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akhoury/nodebb-plugin-spam-be-gone"
+    "url": "https://github.com/Magictea-Intl/nodebb-plugin-spam-be-gone"
   },
   "keywords": [
     "nodebb",
@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/akhoury/nodebb-plugin-spam-be-gone"
+    "url": "https://github.com/Magictea-Intl/nodebb-plugin-spam-be-gone"
   },
   "dependencies": {
     "akismet": "^1.0.0",
