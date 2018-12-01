@@ -59,7 +59,7 @@
               </label>
             </div>
             <p class="help-block">To check every user registration. You need a private and a public key, get yours from
-              <a target="_blank" href="http://www.google.com/recaptcha">google.com/recaptcha</a></p>
+              <a target="_blank" href="http://www.recaptcha.net/recaptcha">recaptcha.net/recaptcha</a></p>
               <div class="form-inline">
                 <div class="form-group" style="width:45%;">
                   <label for="recaptchaPublicKey">Re-Captcha Public API Key</label>
