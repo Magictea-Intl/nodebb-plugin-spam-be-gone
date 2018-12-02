@@ -1,5 +1,5 @@
 window.__nodebbSpamBeGoneCreateCaptcha__ = function () {
-    var args = plugin['spam-be-gone'].recaptchaArgs;
+    var args = plugin['spam-be-gone-gfw'].recaptchaArgs;
 
     grecaptcha.render(
         args.targetId,
@@ -21,12 +21,12 @@ $(function() {
 		if (
 			data.tpl_url === 'register'
 			&& window.plugin
-			&& plugin['spam-be-gone']
-			&& plugin['spam-be-gone'].recaptchaArgs
-			&& $('#' + plugin['spam-be-gone'].recaptchaArgs.targetId).length
+			&& plugin['spam-be-gone-gfw']
+			&& plugin['spam-be-gone-gfw'].recaptchaArgs
+			&& $('#' + plugin['spam-be-gone-gfw'].recaptchaArgs.targetId).length
 			) {
 
-			var args = plugin['spam-be-gone'].recaptchaArgs;
+			var args = plugin['spam-be-gone-gfw'].recaptchaArgs;
 
 			var injectTag = function (tagName, attrs, options) {
 					options || (options = {});
