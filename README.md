@@ -1,4 +1,4 @@
-nodebb-plugin-spam-be-gone-china
+nodebb-plugin-spam-be-gone-gfw
 ==========================
 
 ## From 0.3.x to 0.4.x
